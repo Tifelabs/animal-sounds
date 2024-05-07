@@ -1,0 +1,15 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: green;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.taps .c{
+    background-image: url(./images/cow.png);
+}
