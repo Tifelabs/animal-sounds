@@ -1,3 +1,7 @@
+body{
+    background-image: url(./assets/images/background.jpg);
+}
+
 .heading{
     display: flex;
     justify-content: center;
@@ -9,7 +13,197 @@ h2{
     font-weight: bold;
     font-size: 50px;
 }
+body > .taps > .a.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
 
-.taps .c{
-    background-image: url(./images/cow.png);
+body > .taps > .b.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .c.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .d.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .e.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .f.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .g.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .h.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .i.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .j.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .k.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .l.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .m.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .n.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .o.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .p.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .q.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .r.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .s.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .t.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .u.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .v.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .w.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .x.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .y.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+body > .taps > .z.key {
+    height: 200px;
+    width: 200px;
+    border: 30;
+    border-color: green;
+    border-radius: 30px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 20px;
+    color: green;
 }
