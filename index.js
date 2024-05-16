@@ -33,7 +33,25 @@ function makeSound(key) {
       cow.play();
       break;
 
+    case "d":
+      var dog = new Audio("assets/sounds/dog.mp3");
+      dog.play();
+      break;
 
+    case "e":
+      var eagle = new Audio("assets/sounds/eagle.mp3");
+      eagle.play();
+      break;
+
+    case "f":
+      var frog = new Audio("assets/sounds/frog.mp3");
+      frog.play();
+      break;
+
+    case "g":
+      var goat = new Audio("assets/sounds/goat.mp3");
+      goat.play();
+      break;
 
     //The Default   
     default:
