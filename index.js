@@ -1,9 +1,51 @@
-var numberOfKeyButtons = document.querySelectorAll(".key").length;
-for(var i = 0; i < numberOfKeyButtons; i++){
+var numberOfDrumButtons = document.querySelectorAll(".key").length;
 
-    document.querySelectorAll(".key")[i].addEventListener("click",function(){
-        var audio = new Audio(/home/tifelabs/Desktop/animal - sounds/assets/sounds/cow.wav)
-        audio.play()
-    });
-
+for (var i = 0; i < numberOfDrumButtons; i++) {
+  document.querySelectorAll(".key")[i].addEventListener("click", function() {
+    var buttonInnerHTML = this.innerHTML;
+    makeSound(buttonInnerHTML);
+    buttonAnimation(buttonInnerHTML);
+  });
 }
+
+document.addEventListener("keypress", function(event) {
+  makeSound(event.key);
+  buttonAnimation(event.key);
+});
+
+function makeSound(key) {
+  switch (key) {
+    //Alligator
+    case "a":
+      var alligator = new Audio("assets/sounds/alligator.mp3");
+      alligator.play();
+      break;
+
+    //Bee
+    case "b":
+      var bee = new Audio("assets/sounds/bee.mp3");
+      bee.play();
+      break;
+      
+    //Cow
+    case "c":
+      var cow = new Audio("assets/sounds/cow.wav");
+      cow.play();
+      break;
+
+
+
+    //The Default   
+    default:
+      console.log(key);
+  }
+}
+
+function buttonAnimation(currentKey) {
+    var activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed");
+    setTimeout(function() {
+      activeButton.classList.remove("pressed");
+    }, 100);
+  }
+  

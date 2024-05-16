@@ -16,9 +16,11 @@ h2{
 body > .taps > .a.key {
     height: 200px;
     width: 200px;
-    border: 30;
+    border: none;
     border-color: green;
     border-radius: 30px;
+    background-image: url(./assets/images/alligator.png);
+    background-size: cover;
 }
 
 body > .taps > .b.key {
@@ -27,13 +29,17 @@ body > .taps > .b.key {
     border: 30;
     border-color: green;
     border-radius: 30px;
+    background-image: url(./assets/images/bee.jpg);
+    background-size: cover;
 }
 body > .taps > .c.key {
     height: 200px;
     width: 200px;
-    border: 30;
+    border: 30px;
     border-color: green;
     border-radius: 30px;
+    background-image: url(./assets/images/cow.png);
+    background-size: cover;
 }
 body > .taps > .d.key {
     height: 200px;
@@ -41,6 +47,8 @@ body > .taps > .d.key {
     border: 30;
     border-color: green;
     border-radius: 30px;
+    background-image: url(./assets/images/dog.jpg);
+    background-size: cover;
 }
 body > .taps > .e.key {
     height: 200px;
@@ -48,6 +56,8 @@ body > .taps > .e.key {
     border: 30;
     border-color: green;
     border-radius: 30px;
+    background-image: url(./assets/images/eagle.jpg);
+    background-size: cover;
 }
 body > .taps > .f.key {
     height: 200px;
@@ -55,6 +65,8 @@ body > .taps > .f.key {
     border: 30;
     border-color: green;
     border-radius: 30px;
+    background-image: url(./assets/images/frog.jpg);
+    background-size: cover;
 }
 body > .taps > .g.key {
     height: 200px;
@@ -62,6 +74,8 @@ body > .taps > .g.key {
     border: 30;
     border-color: green;
     border-radius: 30px;
+    background-image: url(./assets/images/goat.jpg);
+    background-size: cover;
 }
 body > .taps > .h.key {
     height: 200px;
