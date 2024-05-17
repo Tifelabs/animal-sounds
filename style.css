@@ -83,6 +83,8 @@ body > .taps > .h.key {
     border: 30;
     border-color: green;
     border-radius: 30px;
+    background-image: url(./assets/images/horse.jpg);
+    background-size: cover;
 }
 body > .taps > .i.key {
     height: 200px;
@@ -90,6 +92,7 @@ body > .taps > .i.key {
     border: 30;
     border-color: green;
     border-radius: 30px;
+    
 }
 body > .taps > .j.key {
     height: 200px;
